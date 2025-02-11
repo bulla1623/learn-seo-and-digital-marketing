@@ -1,0 +1,61 @@
+/* Background Styling */
+.for-bg-images {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Red Text */
+.text-danger {
+    color: #de3335 !important;
+}
+
+/* Paragraph Styling */
+.text-justify {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Image Styling */
+.map-img {
+    border-radius: 15px;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .text-justify {
+        font-size: 14px;
+    }
+
+    .map-img {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 22px;
+    }
+
+    .text-justify {
+        font-size: 13px;
+    }
+
+    .map-img {
+        max-height: 250px;
+    }
+}

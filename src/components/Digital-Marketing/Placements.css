@@ -1,0 +1,70 @@
+.main-div-of-job-placements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    margin-top: 30px;
+}
+
+.div-of-job-placements {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1140px;
+    height: fit-content;
+}
+
+.heading-or-text-placement {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-or-text-placement h1 {
+    font-weight: bold;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.heading-or-text-placement p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.image-div-of-placement {
+    /* display: block; */
+    /* display: flex; */
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    height: 550px;
+}
+
+.image-div-of-placement img {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.enroll-btn-of-image-div {
+    /* margin-top: 40px; */
+    position: relative;
+    background: #DE3335;
+    height: 3rem;
+    width: 146px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    top: -242px;
+    left: 80px;
+}    

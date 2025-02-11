@@ -1,0 +1,56 @@
+.main-our-career-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url("../../assests/SEO/bg\ \(31\).jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.our-career-div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    border-radius: 15px;
+
+    width: 1140px;
+}
+
+.our-career-div p {
+    margin: 10px 10px;
+}
+
+.our-career-div h1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px;
+
+}
+
+.main-our-career-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-career-main-div {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.our-career-h2-p-div p {
+    width: 1000px;
+    text-align: justify;
+    margin: 20px 20px;
+
+}

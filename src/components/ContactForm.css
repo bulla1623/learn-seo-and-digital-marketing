@@ -1,0 +1,199 @@
+.form1{
+    background-color: #f1eeee;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container {
+    background: white;
+    padding: 20px; /* Reduced padding for better fit on small screens */
+    border-radius: 10px;
+    color: black;
+    width: 450px;
+    max-width: 90%; /* Ensures the form adjusts to smaller screen sizes */
+    height: auto; /* Allows height to adjust based on content */
+    font-size: 14px;
+    margin: 0 auto; /* Centers the form horizontally */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.form-container input, 
+.form-container select, 
+.form-container textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Adds a border for clarity */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.gallery {
+    margin-top: 15px;
+    display: grid;
+    max-width: 100%;
+    height: 100%;
+}
+
+.gallery>img {
+    display: grid;
+    grid-area: 9/1;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 10px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    animation: slide 16s infinite;
+}
+
+.gallery>img:last-child {
+    animation-name: slide-last;
+}
+
+.gallery>img:nth-child(2) {
+    animation-delay: -2s;
+}
+
+.gallery>img:nth-child(3) {
+    animation-delay: -4s;
+}
+
+.gallery>img:nth-child(4) {
+    animation-delay: -6s;
+}
+
+.gallery>img:nth-child(5) {
+    animation-delay: -8s;
+}
+
+.gallery>img:nth-child(6) {
+    animation-delay: -10s;
+}
+
+.gallery>img:nth-child(7) {
+    animation-delay: -12s;
+}
+
+.gallery>img:nth-child(8) {
+    animation-delay: -14s;
+}
+
+.gallery>img:nth-child(9) {
+    animation-delay: -16s;
+}
+
+.gallery>img:nth-child(10) {
+    animation-delay: -18s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    16.66% {
+        transform: translateX(120%);
+        z-index: 2;
+    }
+
+    16.67% {
+        transform: translateX(120%);
+        z-index: 1;
+    }
+
+    33.34% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    66.33% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    66.34% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    100% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+}
+
+@keyframes slide-last {
+    0% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    16.66% {
+        transform: translateX(120%);
+        z-index: 2;
+    }
+
+    16.67% {
+        transform: translateX(120%);
+        z-index: 1;
+    }
+
+    33.34% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    83.33% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    83.34% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    100% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+}
+.View-All-Reviews {
+    background: #DE3335;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 16px;
+    width: 200px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.View-All-Reviews:hover {
+    background: black !important;
+    color: white;
+    transition: all .3s linear;
+}
+
+.btn-read-more {
+    background-color: #de3335;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 200px;
+}
+.btn-read-more:hover {
+    background: black !important;
+    color: white;
+    transition: all .3s linear;
+}

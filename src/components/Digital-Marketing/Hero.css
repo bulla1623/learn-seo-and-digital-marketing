@@ -1,0 +1,47 @@
+.main-class-of-hero-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.class-of-hero-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.class-of-hero-images h1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.class-of-hero-images p {
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+.text-of-hero-section-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img-of-hero-contant {
+    display: block;
+    margin: 10px 10px;
+    width: 50%;
+}
+
+.img-of-hero-contant img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,43 @@
+.main-seo-course-overview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seo-course-overview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.seo-course-overview h1 {
+    font-weight: bolder;
+    margin: 10px 10px;
+}
+.seo-overview-od-img-text-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.our-view-of-p-h1 h1 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.seo-overview-od-img-text-div p {
+    margin: 10px 10px;
+    text-align: justify;
+    font-size: medium;
+}
+
+.our-seo-overview-section video {
+    margin: 10px 10px;
+    display: block;
+}

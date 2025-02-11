@@ -1,0 +1,52 @@
+.main-div-of-benefit-digital-marketing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 30px;
+    background-image: url('../../assests/SEO/bg.jpg');
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.div-of-benefit-digital-marketing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    gap: 20px;
+
+}
+
+.first-text-of-benefit-div h2 {
+    color: white;
+    margin: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.first-text-of-benefit-div {
+    max-width: 30%;
+}
+
+.first-text-of-benefit-div p {
+    color: white;
+    margin: 12px 10px;
+    text-align: justify;
+}
+
+
+.icon-and-text-div-of-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: block; */
+}
+
+.icon-and-text-div-of-marketing p {
+    text-align: justify;
+    width: 99%;
+    color: white;
+    margin: 10px 10px;
+    text-align: justify;
+}

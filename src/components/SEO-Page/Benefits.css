@@ -1,0 +1,54 @@
+.main-div-benefit-of-seo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assests/SEO/bg.jpg');
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+.benefit-of-seo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    gap: 30px;
+}
+
+.box1-of-benefit-of-seo {
+    max-width: 30%;
+}
+
+.box1-of-benefit-of-seo h1 {
+    color: white;
+    margin: 10px 10px;
+    font-size:30px;
+}
+.box1-of-benefit-of-seo hr {
+    color: white;
+    margin: 10px 10px;
+    height:10px;
+}
+.ans-of-benefit-of-seo {
+    max-width: 70%;
+    margin: 10px 10px;
+}
+
+.box1-of-benefit-of-seo p {
+    text-align: justify;
+    margin: 10px 10px;
+    color: white;
+}
+
+.ans-of-benefit-of-seo p {
+    color: white;
+    margin: 19px 20px;
+    text-align: justify;
+}
+
+.icon-and-text-benefit-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

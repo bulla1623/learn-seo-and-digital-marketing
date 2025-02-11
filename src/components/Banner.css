@@ -1,0 +1,240 @@
+/* CTA Section */
+.cta-section {
+    margin-top: 20px;
+    background-color: #de3335;
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cta-section h3 {
+    font-size: 28px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Button Styling */
+.abcd {
+    background-color: #f1eeee; 
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    width: 150px;
+}
+
+.abcd:hover {
+    background: black !important;
+    color: white;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cta-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-section h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .abcd {
+        font-size: 14px;
+        padding: 8px 15px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-section h3 {
+        font-size: 18px;
+    }
+
+    .abcd {
+        font-size: 12px;
+        padding: 6px 10px;
+        margin-top: 10px;
+    }
+}
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup.show {
+    display: flex;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto; /* Scroll if content exceeds available height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.popup-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.popup-left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-left label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.popup-left input,
+.popup-left textarea,
+.popup-left select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.popup-left button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #de3335;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.popup-left button:hover {
+    background-color: #c02c2e;
+}
+
+/* Animation Effects */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .popup-content {
+        width: 95%;
+        height: auto;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .close {
+        font-size: 18px;
+        top: 5px;
+        right: 10px;
+    }
+
+    .popup-left label {
+        font-size: 13px;
+    }
+
+    .popup-left input,
+    .popup-left textarea,
+    .popup-left select {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .popup-left button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popup-content {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .popup-left label {
+        font-size: 12
+    }
+
+    .popup-left input,
+    .popup-left textarea,
+    .popup-left select {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .popup-left button {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

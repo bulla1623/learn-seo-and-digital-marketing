@@ -1,0 +1,52 @@
+<!--Start your Journey-->
+<div class="container">
+    <div class="row">
+        <!-- Text Section -->
+        <div class="col-lg-6">
+            <h2 class="p-4 text-center" style="font-family: Georgia, serif;">
+                <b><span style="color:#de3335; font-size: 34px">100%</span> Success Rate</b>
+            </h2>
+            <p class="p-2" style="font-size:16px; text-align: justify;">
+                With a 100% success rate, our students secure promising career opportunities. They benefit from
+                an average package offer that reflects their improved skills and certifications in our <b>top
+                    digital marketing courses in Chandigarh,</b> including SEO, graphic designing,
+                and web designing. Our detailed training programs ensure students are well-prepared for the
+                competitive job market and have hands-on experience.
+                <br><br>
+                We also provide specific career support, including job placement help and networking opportunities
+                with leading companies. This commitment to high standards has established us as a top option for
+                individuals looking to advance their careers or start new businesses in the dynamic field of the
+                digital and creative sectors. Whether you’re aiming to launch a successful profession or improve
+                your skills, our courses provide the foundation for your growth and success.
+            </p>
+        </div>
+
+        <!-- Video Section -->
+        <div class="col-lg-6 video-div position-relative text-center d-flex align-items-center justify-content-center">
+            <div class="video-section">
+                <!-- Central Video -->
+                <div class="central-video">
+                    <video autoplay loop muted class="main-video" src="Images/Videos/new-vdo-of-colloge12.mp4"></video>
+                </div>
+                <!-- Surrounding Videos -->
+                <div class="video-circle">
+                    <div class="circle-video">
+                        <video autoplay loop muted class="side-video" src="Images/Videos/new-vdo-of-colloge13.mp4"></video>
+                    </div>
+                    <div class="circle-video">
+                        <video autoplay loop muted class="side-video" src="Images/Videos/new-vdo-of-colloge14.mp4"></video>
+                    </div>
+                    <div class="circle-video">
+                        <video autoplay loop muted class="side-video" src="Images/Videos/new-vdo-of-colloge15.mp4"></video>
+                    </div>
+                    <div class="circle-video">
+                        <video autoplay loop muted class="side-video" src="Images/Videos/new-vdo-of-colloge16.mp4"></video>
+                    </div>
+                    <div class="circle-video">
+                        <video autoplay loop muted class="side-video" src="Images/Videos/new-vdo-of-colloge17.mp4"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

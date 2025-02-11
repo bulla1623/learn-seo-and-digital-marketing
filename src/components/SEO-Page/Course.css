@@ -1,0 +1,152 @@
+.main-div-basic-concepts-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.basic-concepts-div {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('../../assests/SEO/bg\ \(31\).jpg');
+    background-size: 100% 100%;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.basic-concepts-div h1 {
+    margin: 10px 10px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.basic-concepts-div p {
+    max-width: 90%;
+    margin: 3px 3px;
+    text-align: justify;
+}
+
+.main-div-of-slider-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-div-of-slider-heading {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1140px;
+    background-image: url(../../assests/SEO/bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.center-div-of-slider-heading h1 {
+    margin: 10px 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.center-div-of-slider-heading p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+/* ====================================btn-div========================= */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.icon-and-text-div-of-btn {
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+}
+
+.button-panel {
+    flex: 1;
+    min-width: 150px;
+    max-width: 300px;
+    margin-right: 200px;
+}
+
+.button-panel .btn {
+    display: block;
+    width: 280px;
+    
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #DE3335;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-panel .btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.button-panel .btn.active {
+    background-color: rgb(83, 11, 11);
+    color: white;
+}
+
+.display-container {
+    flex: 2;
+    min-width: 200px;
+    width: fit-content;
+}
+
+.display-content {
+    display: flex;
+    display: none;
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+    animation-duration: 0.6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.display-content.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.display-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+@keyframes fadeInScaleUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

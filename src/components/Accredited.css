@@ -1,0 +1,51 @@
+.accredited-section{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.highlight{
+    color: #de3335;
+}
+.tools-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center; /* Center-align the items vertically */
+    gap: 15px; /* Reduced space between items */
+    width: 100%; /* Use full width of the container */
+    max-width: 1000px; /* Set maximum width */
+    margin: 0 auto; /* Center the entire list within its parent */
+}
+
+.tool-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px; /* Smaller padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Reduced height */
+    width: 150px; 
+    flex-basis: calc(20% - 15px); /* Adjusted for smaller items */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Adds shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tool-item img {
+    max-width: 90%; /* Fit smaller size */
+    max-height: 90%; /* Fit smaller size */
+}
+
+.tool-item:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 6px 10px rgba(196, 164, 164, 0.15);
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .tool-item {
+        flex-basis: calc(50% - 15px); /* Show 2 items per row */
+        width: auto; /* Allow flexible width */
+    }
+}

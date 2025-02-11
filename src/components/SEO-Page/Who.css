@@ -1,0 +1,112 @@
+.outerline-box-of-heading {
+    max-width: 1140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('../../assests/SEO/bg\ \(31\).jpg');
+
+}
+.abc{
+    color:#DE3335;
+}
+.outerline-box-of-heading h1 {
+    margin: 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.outerline-box-of-heading p {
+    margin: 10px 10px;
+}
+
+.our-main-outerline-box-of-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-outerline-box-of-heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.for-tab-viwe-our-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+.our-pic-and-icon {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+}
+
+.our-pic-and-icon img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+}
+
+.our-pic-and-icon img:hover {
+    transform: scale(0.8);
+    filter: blur(5px);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #DE3335;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.overlay-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:hover img {
+    filter: blur(2px);
+}

@@ -1,0 +1,42 @@
+.main-our-job-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.our-job-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    gap: 100px;
+
+}
+
+.certificate-text-section h3 {
+    margin: 10px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.certificate-text-section p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.certificate-text-section {
+    display: block;
+    width: 40%;
+}
+
+.certificate-container img {
+    max-width: 100%;
+    height: 493px;
+    width: 442px;
+}
+
+

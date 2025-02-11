@@ -1,0 +1,79 @@
+.main-box-of-models-heading-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-of-models-heading-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1140px;
+    background-image: url("../../assests/SEO/bg\ \(31\).jpg");
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box-of-models-heading-text h1 {
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.box-of-models-heading-text p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.module-container {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.module-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.module-item {
+    background-color: #de3335;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.module-item:hover {
+    background-color: #b71c1c;
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.module-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.module-content {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.module-image {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}

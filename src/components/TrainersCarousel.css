@@ -1,0 +1,52 @@
+/* Trainers Section */
+.trainers {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f1eeee;
+    color: black;
+}
+
+/* Ensure the carousel is visible */
+.owl-carousel {
+    display: block !important;
+    width: 100%;
+}
+
+/* Carousel Item */
+.owl-carousel .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+/* Trainer Image */
+.owl-carousel .item img {
+    max-width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Ensure carousel navigation buttons are visible */
+.owl-nav button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+}
+
+.owl-nav button.owl-prev {
+    left: -30px;
+}
+
+.owl-nav button.owl-next {
+    right: -30px;
+}

@@ -1,0 +1,107 @@
+.main-three-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+ 
+}
+
+.main-class-importance-of-digital-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../assests/SEO/bg\ \(31\).jpg");
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1140px;
+    margin-bottom: 30px;
+}
+
+.main-class-importance-of-digital-marketing h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 10px;
+
+}
+
+.main-class-importance-of-digital-marketing p {
+    text-align: justify;
+    margin: 10px 10px;
+
+}
+
+.c1-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    background-image: url("../../assests/SEO/bg\ \(31\).jpg");
+}
+
+.c1-container {
+    text-align: center;
+    /* max-width: 90%; */
+    margin: 0 auto;
+}
+
+.b1-button {
+    background-color: #DE3335;
+    color: white;
+    font-weight: bold;
+    border: none;
+    /* padding: 0px 30px; */
+    width: 350px;
+    height: 50px;
+    /* margin: 5px; */
+    /* max-width: 400px; */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    /* border-radius: 15px;  */
+}
+
+.b1-button:hover {
+    background-color: darkred;
+}
+
+.b1-button.active {
+    background-image: url("../../assests/SEO/bg\ \(31\).jpg");
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 1px solid black; */
+    color: black;
+}
+
+.t1-text-content {
+    position: relative;
+    min-height: 50px;
+}
+
+.t1-text-item {
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px);
+    /* transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease; */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+    font-size: 18px;
+    color: black;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.t1-text-item.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.t1-text-item.blue-background {
+
+    color: black;
+    border-radius: 15px;
+}

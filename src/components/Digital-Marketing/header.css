@@ -1,0 +1,63 @@
+.navbar-logo {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    z-index: 1060;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.navbar-logo .logo {
+    height: 60px;
+}
+
+/* Contact Info */
+.contact-info {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons .social-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-logo {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar-logo .logo {
+        margin-bottom: 10px;
+    }
+
+    .contact-info {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .social-icons .social-icon {
+        width: 22px;
+        height: 22px;
+    }
+}
