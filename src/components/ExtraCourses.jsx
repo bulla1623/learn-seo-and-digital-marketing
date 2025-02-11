@@ -62,13 +62,13 @@ const ExtraCourses = () => {
                 </h3>
                 <label htmlFor="Name">Name:</label>
                 <input type="text" placeholder="Full Name" id="Name" name="Name" required />
-                
+
                 <label htmlFor="phone">Phone Number:</label>
                 <input type="tel" placeholder="Phone Number" id="phone" name="Phone" required />
-                
+
                 <label htmlFor="Email">Email:</label>
                 <input type="email" placeholder="Email" id="Email" name="Email" required />
-                
+
                 <label htmlFor="batches">Choose a batch:</label>
                 <select id="batches" name="Batch">
                   <option>February 15</option>
@@ -82,7 +82,7 @@ const ExtraCourses = () => {
               </form>
             </div>
             <div className="col-md-6">
-              <img src="Images/popup img.jpg" height="650px" width="450px" alt="Popup Image" />
+              <img src="Images/popup img.jpg" height="650px" width="450px" alt="Popup_Image" />
             </div>
           </div>
         </div>
