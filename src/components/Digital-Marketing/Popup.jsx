@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Popup.css"; // Import CSS for styling
 
 const Popup = ({ isOpen, onClose }) => {

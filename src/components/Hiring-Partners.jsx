@@ -15,10 +15,10 @@ export default function HiringPartners() {
 
   const morePartners = [
     "BEST-IELTS-COACHING-INSTITUTE-IN-CHANDIGARH.png",
-    , "Nivesh-Counsultant.png",
+    "Nivesh-Counsultant.png",
     "Proptye.png", "Browse-Wheels.png", "HGroup-India.png",
     "RealFinc.png", "The-Green-Nest.png", "Show-discount.png",
-    "Roof-&-Height.png", "Adore-me-boutique.png" , "Art.png"
+    "Roof-&-Height.png", "Adore-me-boutique.png", "Art.png"
   ];
 
   return (

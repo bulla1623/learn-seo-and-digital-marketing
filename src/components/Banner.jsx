@@ -6,12 +6,11 @@ const PopupModal = () => {
   const openPopup = () => setPopupOpen(true);
   const closePopup = () => setPopupOpen(false);
 
-
   return (
     <div className="container">
       <div className="cta-section">
         <h3>Want A High-Paying Career in Digital Marketing?</h3>
-        <button className="abcd"  onClick={openPopup}>
+        <button className="abcd" onClick={openPopup}>
           Get Started!
         </button>
       </div>
@@ -31,13 +30,13 @@ const PopupModal = () => {
                 </h3>
                 <label htmlFor="Name">Name:</label>
                 <input type="text" placeholder="Full Name" id="Name" name="Name" required />
-                
+
                 <label htmlFor="phone">Phone Number:</label>
                 <input type="tel" placeholder="Phone Number" id="phone" name="Phone" required />
-                
+
                 <label htmlFor="Email">Email:</label>
                 <input type="email" placeholder="Email" id="Email" name="Email" required />
-                
+
                 <label htmlFor="batches">Choose a batch:</label>
                 <select id="batches" name="Batch">
                   <option>February 15</option>
@@ -51,7 +50,7 @@ const PopupModal = () => {
               </form>
             </div>
             <div className="col-md-6">
-              <img src="Images/popup img.jpg" height="650px" width="450px" alt="Popup Image" />
+              <img src="Images/popup img.jpg" height="650px" width="450px" alt="Popup" />
             </div>
           </div>
         </div>

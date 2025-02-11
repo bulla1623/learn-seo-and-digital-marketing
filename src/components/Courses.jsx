@@ -24,7 +24,7 @@ const CourseSection = () => {
                             <img src="Images/Courses/SEO.png" alt="SEO" />
                             <h3>SEO</h3>
                             <p>Our effective SEO courses include optimization techniques that raise a website's search engine ranking and draw in more organic traffic.</p>
-                            <a href="#" className="btn-read-more">READ MORE</a>
+                            <button className="btn-read-more">READ MORE</button>
                         </div>
                     </div>
                     {/* Web Designing */}
@@ -33,7 +33,7 @@ const CourseSection = () => {
                             <img src="Images/Courses/WD.png" alt="Web Designing" />
                             <h3>Web Designing</h3>
                             <p>Our web design course in Zirakpur teaches skills to create visually appealing, simple, and responsive websites using the latest techniques.</p>
-                            <a href="#" className="btn-read-more">READ MORE</a>
+                            <button className="btn-read-more">READ MORE</button>
                         </div>
                     </div>
                     {/* Graphic Designing */}
@@ -42,7 +42,7 @@ const CourseSection = () => {
                             <img src="Images/Courses/Graphic.png" alt="Graphic Designing" />
                             <h3>Graphic Designing</h3>
                             <p>We teach creative skills in our graphic design course so that students can create captivating images for a range of digital media.</p>
-                            <a href="#" className="btn-read-more">READ MORE</a>
+                            <button className="btn-read-more">READ MORE</button>
                         </div>
                     </div>
                     {/* Digital Marketing */}
@@ -51,7 +51,7 @@ const CourseSection = () => {
                             <img src="Images/Courses/DM.png" alt="Digital Marketing" />
                             <h3>Digital Marketing</h3>
                             <p>Our digital marketing course teaches vital strategies and the recent instruments to improve your online visibility and promote your company.</p>
-                            <a href="#" className="btn-read-more">READ MORE</a>
+                            <button className="btn-read-more">READ MORE</button>
                         </div>
                     </div>
                 </div>
